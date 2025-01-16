@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Problem 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="colorDiv">
+        RGB Color
+        <div class="RGBcolorBox"> </div>
+        <p>Value RGB(<span class="rgbValue">0,0,0</span>)</p>
+        <span>RED</span>
+        <input type="range" name="rgbRange" id="Red" min="0" max="255" value="0">
+        <br>
+        <span>Green</span>
+        <input type="range" name="rgbRange" id="Green" min="0" max="255" value="0">
+        <br>
+        <span>Blue</span>
+        <input type="range" name="rgbRange" id="Blue" min="0" max="255" value="0">
+    </div>
+
+
+    <div class="colorDiv">
+        HEX Color
+        <div class="HEXcolorBox"> </div>
+        <p>Value <span class="hexValue">#000000</span></p>
+
+        <span>RED</span>
+        <input type="range" name="hexRange" id="hexRed" min="0" max="255" value="0">
+        <br>
+        <span>Green</span>
+        <input type="range" name="hexRange" id="hexGreen" min="0" max="255" value="0">
+        <br>
+        <span>Blue</span>
+        <input type="range" name="hexRange" id="hexBlue" min="0" max="255" value="0">
+    </div>
+
+</body>
+<script src="./app.js"></script>
+
+</html>
